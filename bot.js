@@ -7,7 +7,8 @@ const express = require('express');
 
 // Lấy token của bot Telegram từ biến môi trường
 // Thay đổi giá trị BOT_TOKEN trong file .env để dùng token của bot mới
-const BOT_TOKEN = process.env.BOT_TOKEN;
+const BOT_TOKEN = 7645198770:AAGM95EEjHmbu0Df8QnzROIGMgOnDUV25b8
+// const BOT_TOKEN = process.env.BOT_TOKEN;
 // Kiểm tra nếu BOT_TOKEN không được thiết lập, in lỗi và thoát chương trình
 if (!BOT_TOKEN) {
     // In thông báo lỗi
