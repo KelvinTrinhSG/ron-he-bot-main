@@ -6,6 +6,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 
 // Lấy token của bot Telegram từ biến môi trường
+// Thay đổi giá trị BOT_TOKEN trong file .env để dùng token của bot mới
 const BOT_TOKEN = process.env.BOT_TOKEN;
 // Kiểm tra nếu BOT_TOKEN không được thiết lập, in lỗi và thoát chương trình
 if (!BOT_TOKEN) {
@@ -15,6 +16,8 @@ if (!BOT_TOKEN) {
     process.exit(1); // Exit the app if the token is missing
 }
 // Tạo một đối tượng bot Telegram và bật chế độ polling để bot nhận tin nhắn từ người dùng
+// Tạo một bot Telegram mới với token đã thay đổi
+// Đảm bảo token mới được sử dụng khi tạo bot
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
 // Tạo một ứng dụng Express để lắng nghe các yêu cầu HTTP
 const app = express();
@@ -31,6 +34,7 @@ bot.onText(/\/start/, (msg) => {
                 [
                      // Văn bản trên nút
                     // URL web app khi nhấn nút
+                    / Thay đổi URL sang trang web mới
                     { text: 'Play Hello World Game', web_app: { url: 'https://hedgon.github.io/unity-web-test/' } }
                 ]
             ]
