@@ -35,7 +35,7 @@ bot.onText(/\/start/, (msg) => {
                      // Văn bản trên nút
                     // URL web app khi nhấn nút
                     // Thay đổi URL sang trang web mới
-                    { text: 'Play CrossFi Fruit Frenzy Game', web_app: { url: 'https://itch.io/embed-upload/12191460?color=333333' } }
+                    { text: 'Play opBNB Jelly Merge Telegram Game', web_app: { url: 'https://itch.io/embed-upload/12298342?color=333333' } }
                 ]
             ]
         }
