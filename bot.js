@@ -35,7 +35,7 @@ bot.onText(/\/start/, (msg) => {
                      // Văn bản trên nút
                     // URL web app khi nhấn nút
                     // Thay đổi URL sang trang web mới
-                    { text: 'Play opBNB Blazing Arrow Telegram Game', web_app: { url: 'https://itch.io/embed-upload/12303970?color=333333' } }
+                    { text: 'Play opBNB The Collector Telegram Game', web_app: { url: 'https://itch.io/embed-upload/12304150?color=333333' } }
                 ]
             ]
         }
