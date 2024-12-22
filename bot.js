@@ -35,7 +35,7 @@ bot.onText(/\/start/, (msg) => {
                      // Văn bản trên nút
                     // URL web app khi nhấn nút
                     // Thay đổi URL sang trang web mới
-                    { text: 'Play opBNB Stick Challenge Telegram Game', web_app: { url: 'https://itch.io/embed-upload/12304906?color=333333' } }
+                    { text: 'Play CrossFi The Collector Telegram Game', web_app: { url: 'https://itch.io/embed-upload/12319112?color=333333' } }
                 ]
             ]
         }
